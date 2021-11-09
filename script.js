@@ -41,5 +41,8 @@ async function getQuotes() {
     }
 }
 
+// Event Listeners
+newQuoteBtn.addEventListener('click', newQuote);
+
 // on Load 
 getQuotes();
